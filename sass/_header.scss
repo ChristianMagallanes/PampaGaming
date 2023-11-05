@@ -4,7 +4,7 @@
     grid-template-columns: 1fr ;
     height: 886px; 
     background-color: #0E0E0E;
-    background-image: url(../assets/assets/hero2.jpg);    
+    background-image: url(https://cdn.oneesports.gg/cdn-data/wp-content/uploads/2020/02/LoL_Clash.jpg);    
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
         justify-content: center;
         flex-direction: column;
         margin-left: 200px;
-        width: 398px;
+        width: 598px;
         height: 346px;
         flex-shrink: 0;
         color: #FFF;
@@ -62,17 +62,18 @@
         }
         .new-product-btn{
             cursor: pointer;
-            background: #D87D4A;
-            width: 160px;
-            height: 48px;
+            background: #2e79b6;
+            
+            padding: 20px 50px;
+            border-radius: 10px;
             flex-shrink: 0;
             border: hidden;
             color: #FFF;
             font-family: "Manrope";
             font-size: 13px;
             font-style: normal;
-            font-weight: 700;
-            line-height: normal;
+           
+           transition: .5s;
             letter-spacing: 1px;
             text-transform: uppercase;
             &:hover{
